@@ -1,3 +1,5 @@
+package ua.pravex.timesheet.model;
+
 import java.util.Date;
 
 public class ReportRecord {

@@ -1,3 +1,7 @@
+package ua.pravex.timesheet.service;
+
+import ua.pravex.timesheet.model.Employee;
+
 import javax.servlet.ServletContext;
 import java.util.Date;
 

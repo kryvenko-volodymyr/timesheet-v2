@@ -1,3 +1,5 @@
+package ua.pravex.timesheet.model;
+
 public class WorkInstance {
     private int id;
     private WorkTitle workTitle;

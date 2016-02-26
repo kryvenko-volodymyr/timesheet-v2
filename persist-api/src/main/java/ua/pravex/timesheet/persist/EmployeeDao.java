@@ -1,3 +1,6 @@
+package ua.pravex.timesheet.persist;
+
+import ua.pravex.timesheet.model.Employee;
 import javax.servlet.ServletContext;
 
 

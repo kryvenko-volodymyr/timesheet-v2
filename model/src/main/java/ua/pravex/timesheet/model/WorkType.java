@@ -1,7 +1,8 @@
-public class WorkTitle {
+package ua.pravex.timesheet.model;
+
+public class WorkType {
     private int id;
     private String title;
-    private WorkType workType;
 
     public void setId(int id) {
         this.id = id;
@@ -13,13 +14,5 @@ public class WorkTitle {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public WorkType getWorkType() {
-        return workType;
-    }
-
-    public void setWorkType(WorkType workType) {
-        this.workType = workType;
     }
 }

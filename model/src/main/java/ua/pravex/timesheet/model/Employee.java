@@ -1,3 +1,5 @@
+package ua.pravex.timesheet.model;
+
 public class Employee {
     private int id;
     private String name;

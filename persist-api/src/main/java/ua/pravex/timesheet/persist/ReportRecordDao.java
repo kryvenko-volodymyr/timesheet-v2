@@ -1,3 +1,8 @@
+package ua.pravex.timesheet.persist;
+
+import ua.pravex.timesheet.model.Employee;
+import ua.pravex.timesheet.model.ReportRecord;
+
 import javax.servlet.ServletContext;
 import java.util.Date;
 import java.util.Set;

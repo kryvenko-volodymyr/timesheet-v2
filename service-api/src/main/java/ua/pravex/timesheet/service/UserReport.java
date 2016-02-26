@@ -1,3 +1,9 @@
+package ua.pravex.timesheet.service;
+
+import ua.pravex.timesheet.model.ReportRecord;
+import ua.pravex.timesheet.model.WorkInstance;
+import ua.pravex.timesheet.util.DatesProcessor;
+
 import java.util.*;
 
 public class UserReport {

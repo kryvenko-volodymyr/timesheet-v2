@@ -1,14 +1,12 @@
+package ua.pravex.timesheet.persist;
+
+import ua.pravex.timesheet.model.WorkInstance;
+
 import javax.servlet.ServletContext;
 import java.util.List;
 
-public interface DomainObjectsManager {
-    public List<WorkType> getWorkTypes ();
-
+public interface WorkInstanceDao {
     void setServletContext(ServletContext servletContext);
-
-    List<WorkTitle> getWorkTitles(String workTypeId);
-
-    List<WorkForm> getWorkForms(String workTypeId);
 
     List<WorkInstance> getWorkInstances(String workTitleId, String workFormId);
 
