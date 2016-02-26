@@ -8,10 +8,10 @@
     <name>timesheet Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>auth</module>
+        <!--<module>auth</module>
         <module>persist</module>
         <module>webapp</module>
-        <module>util</module>
+        <module>util</module>-->
         <module>model</module>
         <module>service</module>
     </modules>

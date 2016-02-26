@@ -38,8 +38,7 @@ public class ReportRecord {
         ReportRecord that = (ReportRecord) o;
 
         if (hoursNum != that.hoursNum) return false;
-        if (!workInstance.equals(that.workInstance)) return false;
-        return dateReported.equals(that.dateReported);
+        return workInstance.equals(that.workInstance) && dateReported.equals(that.dateReported);
 
     }
 
