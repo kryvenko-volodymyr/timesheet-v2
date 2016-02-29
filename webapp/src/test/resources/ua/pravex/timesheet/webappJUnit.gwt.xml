@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="webapp">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ua.pravex.timesheet.webapp' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/webapp/greet" class="ua.pravex.timesheet.server.GreetingServiceImpl" />
+
+</module>
