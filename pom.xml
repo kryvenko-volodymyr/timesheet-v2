@@ -9,10 +9,10 @@
 
     <modules>
         <!--<module>auth</module>-->
-        <module>model</module>
-        <module>service-api</module>
-        <module>persist-api</module>
-        <module>util</module>
+        <module>timesheet-model</module>
+        <module>timesheet-service-api</module>
+        <module>timesheet-persist-api</module>
+        <module>timesheet-util</module>
         <module>timesheet-webapp</module>
 
     </modules>
@@ -31,5 +31,21 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>attach-source</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>

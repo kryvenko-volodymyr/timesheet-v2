@@ -95,9 +95,17 @@
                 <!-- Plugin configuration. There are many available options, see
                   gwt-maven-plugin documentation at codehaus.org -->
                 <configuration>
+                    <compileSourcesArtifacts>
+                        <artifact>ua.pravex:timesheet-model</artifact>
+                        <artifact>ua.pravex:timesheet-service-api</artifact>
+                        <artifact>ua.pravex:timesheet-util</artifact>
+                    </compileSourcesArtifacts>
                     <runTarget>webapp.html</runTarget>
                     <modules>
                         <module>ua.pravex.timesheet.webapp</module>
+                        <!-- <module>ua.pravex.timesheet.model</module>
+                         <module>ua.pravex.timesheet.service</module>
+                         <module>ua.pravex.timesheet.util</module>-->
                     </modules>
                 </configuration>
             </plugin>

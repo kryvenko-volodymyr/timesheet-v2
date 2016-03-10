@@ -23,7 +23,7 @@ package ua.pravex.timesheet.shared;
 public class FieldVerifier {
 
   /**
-   * Verifies that the specified name is valid for our service.
+   * Verifies that the specified name is valid for our ua.pravex.ua.
    *
    * In this example, we only require that the name is at least four
    * characters. In your application, you can use more complex checks to ensure

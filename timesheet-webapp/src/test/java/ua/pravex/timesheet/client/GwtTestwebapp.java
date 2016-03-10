@@ -42,7 +42,7 @@ public class GwtTestwebapp extends GWTTestCase {
    * GreetingService and verify the response.
    */
   public void testGreetingService() {
-    // Create the service that we will test.
+    // Create the ua.pravex.ua that we will test.
     GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
     ServiceDefTarget target = (ServiceDefTarget) greetingService;
     target.setServiceEntryPoint(GWT.getModuleBaseURL() + "webapp/greet");

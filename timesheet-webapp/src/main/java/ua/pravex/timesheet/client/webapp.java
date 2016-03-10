@@ -23,7 +23,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
  * Entry point classes define <code>onModuleLoad()</code>.
  */
 public class webapp implements EntryPoint {
-    UserReport userReport = new UserReport(null, null, null);
+
 
 
     /**
@@ -35,7 +35,7 @@ public class webapp implements EntryPoint {
             + "connection and try again.";
 
     /**
-     * Create a remote service proxy to talk to the server-side Greeting service.
+     * Create a remote ua.pravex.ua proxy to talk to the server-side Greeting ua.pravex.ua.
      */
     private final GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
 
