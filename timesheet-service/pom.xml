@@ -12,8 +12,6 @@
 	<packaging>jar</packaging>
 
 	<dependencies>
-
-
 		<dependency>
 			<groupId>ua.pravex</groupId>
 			<artifactId>timesheet-util</artifactId>
