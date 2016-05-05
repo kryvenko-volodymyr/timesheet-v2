@@ -1,6 +1,8 @@
 package ua.pravex.timesheet.model;
 
-public class WorkType {
+import ua.pravex.timesheet.persist.pools.Poolable;
+
+public class WorkType implements Poolable {
     private int id;
     private String title;
 
@@ -15,5 +17,10 @@ public class WorkType {
     public String getTitle() {
         return title;
     }
+
+	@Override
+	public int getId() {
+		return id;
+	}
 
 }

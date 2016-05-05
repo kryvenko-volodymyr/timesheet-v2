@@ -1,6 +1,8 @@
 package ua.pravex.timesheet.model;
 
-public class WorkInstance {
+import ua.pravex.timesheet.persist.pools.Poolable;
+
+public class WorkInstance implements Poolable {
     private int id;
     private WorkTitle workTitle;
     private WorkForm workForm;
@@ -49,4 +51,9 @@ public class WorkInstance {
     public int hashCode() {
         return id;
     }
+
+	@Override
+	public int getId() {
+		return id;
+	}
 }
