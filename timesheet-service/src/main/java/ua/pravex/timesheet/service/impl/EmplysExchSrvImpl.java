@@ -1,8 +1,8 @@
-package Service.Impl;
+package ua.pravex.timesheet.service.impl;
 
-import Dao.EmployeeDao;
-import Domain.Employee;
-import Service.EmployeesExchangeService;
+import ua.pravex.timesheet.persist.EmployeeDao;
+import ua.pravex.timesheet.model.Employee;
+import ua.pravex.timesheet.service.EmployeesExchangeService;
 
 import javax.servlet.*;
 

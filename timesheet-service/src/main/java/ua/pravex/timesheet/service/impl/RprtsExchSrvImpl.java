@@ -1,11 +1,11 @@
-package Service.Impl;
+package ua.pravex.timesheet.service.impl;
 
-import Dao.ReportRecordDao;
-import Domain.Employee;
-import Domain.UserReport;
-import Domain.ReportRecord;
-import Service.ReportsExchangeService;
-import ua.pravex.util.DatesProcessor;
+import ua.pravex.timesheet.persist.ReportRecordDao;
+import ua.pravex.timesheet.model.Employee;
+import ua.pravex.timesheet.service.UserReport;
+import ua.pravex.timesheet.model.ReportRecord;
+import ua.pravex.timesheet.service.ReportsExchangeService;
+import ua.pravex.timesheet.util.DatesProcessor;
 
 import javax.servlet.ServletContext;
 import java.util.Date;

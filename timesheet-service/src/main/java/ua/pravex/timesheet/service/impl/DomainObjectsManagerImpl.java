@@ -1,14 +1,14 @@
-package Service.Impl;
+package ua.pravex.timesheet.service.impl;
 
-import Dao.WorkFormDao;
-import Dao.WorkInstanceDao;
-import Dao.WorkTitleDao;
-import Dao.WorkTypeDao;
-import Domain.WorkForm;
-import Domain.WorkInstance;
-import Domain.WorkTitle;
-import Domain.WorkType;
-import Service.DomainObjectsManager;
+import ua.pravex.timesheet.persist.WorkFormDao;
+import ua.pravex.timesheet.persist.WorkInstanceDao;
+import ua.pravex.timesheet.persist.WorkTitleDao;
+import ua.pravex.timesheet.persist.WorkTypeDao;
+import ua.pravex.timesheet.model.WorkForm;
+import ua.pravex.timesheet.model.WorkInstance;
+import ua.pravex.timesheet.model.WorkTitle;
+import ua.pravex.timesheet.model.WorkType;
+import ua.pravex.timesheet.service.DomainObjectsManager;
 
 import javax.servlet.ServletContext;
 import java.util.List;
