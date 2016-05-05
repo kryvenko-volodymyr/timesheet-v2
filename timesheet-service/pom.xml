@@ -12,22 +12,16 @@
 	<packaging>jar</packaging>
 
 	<dependencies>
-		<dependency>
-			<groupId>ua.pravex</groupId>
-			<artifactId>timesheet-model</artifactId>
-			<version>2.0-SNAPSHOT</version>
-		</dependency>
 
-		<dependency>
-			<groupId>ua.pravex</groupId>
-			<artifactId>timesheet-persist-api</artifactId>
-			<version>2.0-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>ua.pravex</groupId>
 			<artifactId>timesheet-util</artifactId>
+			<version>2.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>ua.pravex</groupId>
+			<artifactId>timesheet-persist</artifactId>
 			<version>2.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
