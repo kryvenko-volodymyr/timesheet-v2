@@ -20,32 +20,46 @@
 	<welcome-file-list>
 		<welcome-file>webapp.html</welcome-file>
 	</welcome-file-list>
-	
+
 	<security-constraint>
-        <web-resource-collection>
-            <web-resource-name>userAccessLevel</web-resource-name>
-            <url-pattern>/*</url-pattern>
-        </web-resource-collection>
+		<web-resource-collection>
+			<web-resource-name>userAccessLevel</web-resource-name>
+			<url-pattern>/*</url-pattern>
+		</web-resource-collection>
 
-        <auth-constraint>
-            <role-name>user</role-name>
-        </auth-constraint>
+		<auth-constraint>
+			<role-name>user</role-name>
+		</auth-constraint>
 
-        <!--<user-data-constraint>
-            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-        </user-data-constraint>-->
-    </security-constraint>
-	
+		<!--<user-data-constraint> <transport-guarantee>CONFIDENTIAL</transport-guarantee> 
+			</user-data-constraint> -->
+	</security-constraint>
+
 	<login-config>
-        <auth-method>FORM</auth-method>
-        <form-login-config>
-            <form-login-page>/loginPage.html</form-login-page>
-            <form-error-page>/loginError.html</form-error-page>
-        </form-login-config>
-    </login-config>
-	
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/loginPage.html</form-login-page>
+			<form-error-page>/loginError.html</form-error-page>
+		</form-login-config>
+	</login-config>
+
 	<security-role>
-        <role-name>user</role-name>
-    </security-role>
+		<role-name>user</role-name>
+	</security-role>
+
+	<error-page>
+	<error-code>403</error-code>
+	<location>/error/error403.html</location>
+	</error-page>
+	
+	<error-page>
+	<error-code>408</error-code>
+	<location>/error/error408.html</location>
+	</error-page>
+	
+	<error-page>
+	<error-code>404</error-code>
+	<location>/error/error404.html</location>
+	</error-page>
 
 </web-app>
