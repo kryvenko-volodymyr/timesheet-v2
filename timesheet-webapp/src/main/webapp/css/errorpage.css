@@ -3,7 +3,7 @@ body {
 }
 
 #error-message {
-	border-radius: 25px;
+	border-radius: 10px;
 	border: 2px solid #ff0080;
 	padding: 20px;
 	margin: auto;
