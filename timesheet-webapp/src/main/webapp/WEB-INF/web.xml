@@ -23,17 +23,17 @@
 
 	<error-page>
 		<error-code>403</error-code>
-		<location>/error/error403.html</location>
-	</error-page>
-
-	<error-page>
-		<error-code>408</error-code>
-		<location>/error/error408.html</location>
+		<location>/errorpage/error403.html</location>
 	</error-page>
 
 	<error-page>
 		<error-code>404</error-code>
-		<location>/error/error404.html</location>
+		<location>/errorpage/error404.html</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>408</error-code>
+		<location>/errorpage/error408.html</location>
 	</error-page>
 	
 	<security-constraint>
