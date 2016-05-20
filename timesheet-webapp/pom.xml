@@ -57,11 +57,11 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.vaadin.polymer</groupId>
 			<artifactId>vaadin-gwt-polymer-elements</artifactId>
 			<version>1.2.3.0</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>ua.pravex</groupId>
 			<artifactId>timesheet-service-api</artifactId>
@@ -105,7 +105,7 @@
 						<artifact>ua.pravex:timesheet-util</artifact>
 					</compileSourcesArtifacts> -->
 					<runTarget>webapp.html</runTarget>
-					<generateJsInteropExports>true</generateJsInteropExports>
+					<!-- <generateJsInteropExports>true</generateJsInteropExports> FOR POLYMER -->
 					<modules>
 						<module>ua.pravex.timesheet.webapp</module>
 						<!-- <module>ua.pravex.timesheet.model</module> <module>ua.pravex.timesheet.service</module> 

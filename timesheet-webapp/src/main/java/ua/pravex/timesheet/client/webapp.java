@@ -18,7 +18,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-import com.vaadin.polymer.paper.widget.PaperButton;
+/*import com.vaadin.polymer.paper.widget.PaperButton;*/
 
 public class webapp implements EntryPoint {
 
@@ -54,9 +54,9 @@ public class webapp implements EntryPoint {
 		userReportTableHeaderRow.setText(0, 0, "First row, first column in userReportTableHeaderRow");
 		userReportTableBody.setText(0, 0, "First row, first column in userReportTableBody");
 
-		PaperButton addUserReportLineButton = new PaperButton("addUserReportLine");
+		/*PaperButton addUserReportLineButton = new PaperButton("addUserReportLine");
 		addUserReportLineButton.setRaised(true);
-		RootPanel.get("addUserReportLinePanel").add(addUserReportLineButton);
+		RootPanel.get("addUserReportLinePanel").add(addUserReportLineButton);*/
 
 	}
 
