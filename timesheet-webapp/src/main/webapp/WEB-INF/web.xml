@@ -6,6 +6,7 @@
 <web-app>
 
 	<!-- Servlets -->
+	
 	<servlet>
 		<servlet-name>greetServlet</servlet-name>
 		<servlet-class>ua.pravex.timesheet.server.GreetingServiceImpl</servlet-class>

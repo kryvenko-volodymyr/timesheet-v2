@@ -58,6 +58,11 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.vaadin.polymer</groupId>
+			<artifactId>vaadin-gwt-polymer-elements</artifactId>
+			<version>1.2.3.0</version>
+		</dependency>
+		<dependency>
 			<groupId>ua.pravex</groupId>
 			<artifactId>timesheet-service-api</artifactId>
 			<version>2.0-SNAPSHOT</version>
@@ -94,12 +99,13 @@
 				<!-- Plugin configuration. There are many available options, see gwt-maven-plugin 
 					documentation at codehaus.org -->
 				<configuration>
-					<compileSourcesArtifacts>
+					<!-- <compileSourcesArtifacts>
 						<artifact>ua.pravex:timesheet-model</artifact>
 						<artifact>ua.pravex:timesheet-service-api</artifact>
 						<artifact>ua.pravex:timesheet-util</artifact>
-					</compileSourcesArtifacts>
+					</compileSourcesArtifacts> -->
 					<runTarget>webapp.html</runTarget>
+					<generateJsInteropExports>true</generateJsInteropExports>
 					<modules>
 						<module>ua.pravex.timesheet.webapp</module>
 						<!-- <module>ua.pravex.timesheet.model</module> <module>ua.pravex.timesheet.service</module> 

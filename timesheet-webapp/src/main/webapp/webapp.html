@@ -1,38 +1,21 @@
 <!doctype html>
-<!-- The DOCTYPE declaration above will set the    -->
-<!-- browser's rendering engine into               -->
-<!-- "Standards Mode". Replacing this declaration  -->
-<!-- with a "Quirks Mode" doctype may lead to some -->
-<!-- differences in layout.                        -->
 
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+       content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<script src="webapp/bower_components/webcomponentsjs/webcomponents.js"></script>
+<script type="text/javascript" src="webapp/webapp.nocache.js"></script>
 
-<!--                                                               -->
-<!-- Consider inlining CSS to reduce the number of requested files -->
-<!--                                                               -->
+<!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link type="text/css" rel="stylesheet" href="webapp.css">
-
-<!--                                           -->
-<!-- Any title is fine                         -->
-<!--                                           -->
-<title>Web Application Starter Project</title>
-
-<!--                                           -->
-<!-- This script loads your compiled module.   -->
-<!-- If you add any GWT meta tags, they must   -->
-<!-- be added before this line.                -->
-<!--                                           -->
 <script type="text/javascript" language="javascript"
-	src="webapp/webapp.nocache.js"></script>
+	src="webapp/webapp.nocache.js"></script> -->
+	
+<title>TimeSheet.2.0-SNAPSHOT</title>
+
 </head>
 
-<!--                                           -->
-<!-- The body can have arbitrary html, or      -->
-<!-- you can leave the body empty if you want  -->
-<!-- to create a completely dynamic UI.        -->
-<!--                                           -->
 <body>
 
 	<!-- OPTIONAL: include this if you want history support -->
@@ -43,13 +26,22 @@
 	<noscript>
 		<div
 			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
-			Your web browser must have JavaScript enabled in order for this
-			application to display correctly.</div>
+			Для коректного відображення даної сторінки необхідно увімкнути JavaScript.</div>
 	</noscript>
 
-	<h1>TEST TEXT 1234</h1>
+	<div id="userHeaderPanel"></div>
 
-	<table align="center">
+	<div id="saveUserReportPanel"></div>
+	
+	<div id="userReportTableHeaderRow"></div>
+	
+	<div id="userReportTableBody"></div>
+	
+	<div id="addUserReportLinePanel"></div>
+	
+	
+	
+	<!-- <table align="center">
 		<tr>
 			<td colspan="2" style="font-weight: bold;">Please enter your
 				name:</td>
@@ -61,9 +53,7 @@
 		<tr>
 			<td colspan="2" style="color: red;" id="errorLabelContainer"></td>
 		</tr>
-	</table>
-
-	<div id="timesheetPanel"></div>
+	</table> -->
 
 </body>
 </html>

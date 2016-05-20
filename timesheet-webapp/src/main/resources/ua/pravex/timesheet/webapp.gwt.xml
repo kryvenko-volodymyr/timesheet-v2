@@ -9,10 +9,9 @@
 	<inherits name='com.google.gwt.user.theme.standard.Standard' />
 	<!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
 	<!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/> -->
+	<inherits name="com.vaadin.polymer.Elements"/>
 
 	<!-- Other module inherits -->
-	<inherits name="ua.pravex.timesheet.model" />
-	<inherits name="ua.pravex.timesheet.service" />
 
 	<!-- Specify the app entry point class. -->
 	<entry-point class='ua.pravex.timesheet.client.webapp' />
