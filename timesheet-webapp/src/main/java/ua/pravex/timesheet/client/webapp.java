@@ -14,6 +14,7 @@ import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.IntegerBox;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
@@ -52,12 +53,19 @@ public class webapp implements EntryPoint {
 		RootPanel.get("userReportTableBody").add(userReportTableBody);
 
 		userReportTableHeaderRow.setText(0, 0, "First row, first column in userReportTableHeaderRow");
-		userReportTableBody.setText(0, 0, "First row, first column in userReportTableBody");
-
+		
+		ReportLineWidget.Builder builder = ReportLineWidget.getBuilder();
+		builder.setHoursNums(new int[]{1,2,3,4});
+		userReportTableBody.setWidget(0, 0, new ReportLineWidget(builder));
+		
+		
+		/*IntegerBox numberInput2 = new IntegerBox();
+		numberInput2.getElement().setAttribute("type", "number");
+		userReportTableBody.setWidget(1, 1, numberInput2);*/
+		
 		/*PaperButton addUserReportLineButton = new PaperButton("addUserReportLine");
 		addUserReportLineButton.setRaised(true);
 		RootPanel.get("addUserReportLinePanel").add(addUserReportLineButton);*/
-
 	}
 
 	public void onModuleLoadOld() {
