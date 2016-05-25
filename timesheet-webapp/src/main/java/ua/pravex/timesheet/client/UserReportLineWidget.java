@@ -5,14 +5,12 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.IntegerBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-import ua.pravex.timesheet.client.ReportLineWidget.Builder;
-
-class ReportLineWidget extends Composite {
+class UserReportLineWidget extends Composite {
 	private HorizontalPanel mainPanel;
 	private VerticalPanel workInstanceInfo;
 	private IntegerBox[] reportLineData;
 
-	public ReportLineWidget (Builder builder) {
+	public UserReportLineWidget (Builder builder) {
 		workInstanceInfo = new VerticalPanel();
 		mainPanel = new HorizontalPanel();
 		mainPanel.add(workInstanceInfo);

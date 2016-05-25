@@ -1,7 +1,6 @@
 package ua.pravex.timesheet.server;
 
 import ua.pravex.timesheet.client.GreetingService;
-import ua.pravex.timesheet.service.UserReport;
 import ua.pravex.timesheet.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 

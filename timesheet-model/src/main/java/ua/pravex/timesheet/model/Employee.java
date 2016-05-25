@@ -1,12 +1,12 @@
 package ua.pravex.timesheet.model;
 
 public class Employee {
-    private int id;
+	private int id;
     private String name;
     private String account;
 
 
-    public String getName() {
+	public String getName() {
         return name;
     }
 
